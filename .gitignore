@@ -1,0 +1,24 @@
+# .gitignore
+# Archivos que NO se suben a GitHub
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Datos privados
+data/inputs/*.pdf
+data/benchmarks/*.json
+output/*.docx
+output/*.pdf
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
